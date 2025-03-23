@@ -1,8 +1,74 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* h1{
     color: royalblue;
     background-color: lightseagreen;
 }
 
 h2 {
     color: tomato;
+}
+
+.head_3 {
+    color: darkseagreen;
+}
+*/
+
+/* class need to defined by . */
+/* .head_5{
+    color: darkslateblue;
+} */
+
+/* id need to defined by # */
+/* #head_2{
+    color: hsl(11, 72%, 61%)
+} */ 
+
+
+/* 
+
+ id > class > tag
+
+*/
+
+.container{
+    color: chocolate;
+    /* background:lightgray; */
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    /* background-color: palevioletred; */
+    background-image: url('./image.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* .head_3{
+    color: darkslateblue;
+}
+
+#head_2{
+    color: hsl(11, 72%, 61%);
+} */
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style:oblique;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: none;
 }
