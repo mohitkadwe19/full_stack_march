@@ -72,3 +72,61 @@ a{
 ol {
     list-style-type: none;
 }
+
+
+/* css selector */
+
+/* basic selector
+ tag -> div . h1
+ class
+id */
+
+/* group selector */
+h1, h2 {
+    color: red;
+}
+
+
+/* child selector */
+ 
+/* div > p {
+    color: blue;
+} */
+
+div p {
+    color: lightcyan;
+} 
+
+/* attribute selector  
+*/
+
+
+input[type="text"] {
+    background-color: lightblue;
+}
+
+
+/* pseudo class selector 
+*/
+a:hover {
+    color: red;
+}
+
+/* a:active {
+    color: lightsalmon;
+    background-color: lightseagreen;
+} */
+
+/* pseudo element selector */
+h1::first-letter {
+    color: lightgrey;
+    font-size: 2em;
+}
+
+h1::before {
+    content: "Hello ";
+}
+
+h1::after {
+    content: " World";
+}
